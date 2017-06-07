@@ -1,0 +1,176 @@
+body{
+    font-family: "Quicksand", sans-serif;
+    background-image: url("beach.jpg");
+    background-size: cover; 
+}
+
+.first-page{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    padding-bottom: 100px;
+}
+
+
+
+.first-page-content{
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.first-page-text{
+    
+    text-align: center;
+    justify-content: center;
+}
+
+.text-descrip{
+    color: cornsilk;
+    line-height: 150%;
+}
+
+.location-button{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+
+
+h1{
+    color: cornsilk;
+    
+}
+
+#location-field{
+    border-radius: 5px;
+    height: 18px;
+    margin: 0px;
+}
+
+
+.enter-button{
+    color: lightslategray;
+    background-color: lavenderblush;
+    border-radius: 5px;
+    width: 120px;
+    font-size: 12px;
+    
+    border: none;
+}
+
+#city{
+    border-radius: 5px;
+    height: 25px;
+    width: 230px;
+    color: slategray;
+    margin-right: 20px;
+    border: none;
+}
+
+input > placeholder{
+    font-size: 18px;
+}
+
+
+
+
+.day-temps{
+    margin: auto;
+}
+
+days-weather-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.days-weather{
+    
+/*    margin-bottom: 40px;*/
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    
+    margin-bottom: 50px;
+    justify-content: center;
+    vertical-align: middle;
+    position: relative;
+}
+
+.weather-rows{
+    height: 220px;
+    
+    display: inline-block;
+    border: 1px solid cornsilk;
+    border-spacing: 20px;
+    color: cornsilk;
+    border-collapse: collapse;
+    border-radius: 10px;
+    margin: 10px;
+    width: 20%;
+    text-align: center;
+}
+
+
+
+
+.new-submit-field{
+    display: flex-start;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+#newCity{
+    border-radius: 5px;
+    height: 25px;
+    width: 230px;
+    margin: auto;
+    border: none;
+    color: slategray;
+}
+
+.new-button{
+    color: lightslategray;
+    background-color: lavenderblush;
+    border: none;
+    border-radius: 5px;
+    width: 120px;
+    font-size: 12px;
+    
+}
+
+
+
+.post-input{
+    display: none;
+    text-align: center;
+    justify-content: center;
+    min-width: 1200px;
+}
+
+.post-weather-fade{
+    
+    text-align: center;
+    
+    min-width: 1200px;
+}
+
+.current-summary{
+    color: cornsilk;
+}
+
+.location-title-current{
+    color: cornsilk;
+}
+
+button:focus, input:focus{
+    outline: 0;
+}
